@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h4>A Message You Would Like To Pass</h4>
+        <form action="">
+            <input type="text">
+            <button id="btn" type="submit">Submit</button>
+        </form>
+        <h4>Last Message Delivered</h4>
+        <p id="display">No Message</p>
+    </div>
+</body>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 500px;
+        height: 100vh;
+        background-color: red;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+        /* width: 50px; */
+        background-color: white;
+    }
+
+    h4 {
+        margin-bottom: 20px;
+    }
+
+    form {
+        text-align: center;
+    }
+
+    input {
+        width: 100%;
+        padding: 10px;
+        border: solid 1px;
+    }
+
+    button {
+        background-color: red;
+        color: white;
+        padding: 5px 10px;
+        cursor: pointer;
+        border: none;
+        margin: 20px 0;
+    }
+    button:hover {
+        color: black;
+    }
+
+    p {
+        color: red;
+    }
+</style>
+
+<script src="./app2.js"></script>
+</html>
