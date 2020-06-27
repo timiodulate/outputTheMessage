@@ -2,6 +2,7 @@ const input = document.querySelector('input');
 const message = document.getElementById('display');
 const button = document.getElementById('btn');
 const warning = document.querySelector('h5');
+// const form = document.querySelector('form');
 
 function displayMessage() {
     if(input.value === ''){
@@ -17,3 +18,4 @@ function displayMessage() {
 };
 
 button.addEventListener('click', displayMessage);
+// form.addEventListener('submit', displayMessage);
